@@ -323,6 +323,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="PFk-9S-an5" id="YPS-zQ-chA"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHg-CV-Jph">
                                 <rect key="frame" x="7" y="538" width="51" height="21"/>
@@ -358,6 +361,8 @@
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="nameLabel" destination="OHg-CV-Jph" id="qaV-VH-5eC"/>
+                        <outlet property="nameTextField" destination="CQI-lN-rge" id="QMt-6S-dAg"/>
                         <outlet property="searchDisplayController" destination="E6r-x8-xVz" id="WyH-IO-WSg"/>
                     </connections>
                 </viewController>

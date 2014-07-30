@@ -8,7 +8,9 @@
 
 #import "SearchViewController.h"
 
-@interface SearchViewController ()
+#define kOFFSET_FOR_KEYBOARD 220
+
+@interface SearchViewController () <UITextFieldDelegate>
 
 @end
 
@@ -27,6 +29,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+//    [_nameTextField setDelegate:self];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -49,5 +53,61 @@
 - (IBAction)dismissButton:(id)sender
 {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+#pragma Keyboard Move UP
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
+
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField {
+    if (textField == _nameTextField) {
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDelegate:self];
+        [UIView setAnimationDuration:0.5];
+        [UIView setAnimationBeginsFromCurrentState:YES];
+        _nameTextField.frame = CGRectMake(_nameTextField.frame.origin.x, (_nameTextField.frame.origin.y - 220.0), _nameTextField.frame.size.width, _nameTextField.frame.size.height);
+        
+        _nameLabel.frame = CGRectMake(_nameLabel.frame.origin.x, (_nameLabel.frame.origin.y - 220.0), _nameLabel.frame.size.width, _nameLabel.frame.size.height);
+        [UIView commitAnimations];
+    } else if (textField == _nameTextField) {
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDelegate:self];
+        [UIView setAnimationDuration:0.5];
+        [UIView setAnimationBeginsFromCurrentState:YES];
+        _nameTextField.frame = CGRectMake(_nameTextField.frame.origin.x, (_nameTextField.frame.origin.y - 220.0), _nameTextField.frame.size.width, _nameTextField.frame.size.height);
+        
+        _nameLabel.frame = CGRectMake(_nameLabel.frame.origin.x, (_nameLabel.frame.origin.y - 220.0), _nameLabel.frame.size.width, _nameLabel.frame.size.height);
+        [UIView commitAnimations];
+    }
+}
+- (void)textFieldDidEndEditing:(UITextField *)textField {
+    if (textField == _nameTextField) {
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDelegate:self];
+        [UIView setAnimationDuration:0.5];
+        [UIView setAnimationBeginsFromCurrentState:YES];
+        _nameTextField.frame = CGRectMake(_nameTextField.frame.origin.x, (_nameTextField.frame.origin.y + 220.0), _nameTextField.frame.size.width, _nameTextField.frame.size.height);
+        
+        _nameLabel.frame = CGRectMake(_nameLabel.frame.origin.x, (_nameLabel.frame.origin.y + 220.0), _nameLabel.frame.size.width, _nameLabel.frame.size.height);
+        [UIView commitAnimations];
+    } else if (textField == _nameTextField) {
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDelegate:self];
+        [UIView setAnimationDuration:0.5];
+        [UIView setAnimationBeginsFromCurrentState:YES];
+        _nameTextField.frame = CGRectMake(_nameTextField.frame.origin.x, (_nameTextField.frame.origin.y + 220.0), _nameTextField.frame.size.width, _nameTextField.frame.size.height);
+        
+        _nameLabel.frame = CGRectMake(_nameLabel.frame.origin.x, (_nameLabel.frame.origin.y + 220.0), _nameLabel.frame.size.width, _nameLabel.frame.size.height);
+        [UIView commitAnimations];
+    }
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+	[_nameTextField resignFirstResponder];
 }
 @end

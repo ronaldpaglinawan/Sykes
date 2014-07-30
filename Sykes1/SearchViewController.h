@@ -10,5 +10,8 @@
 
 @interface SearchViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *nameTextField;
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+
 - (IBAction)dismissButton:(id)sender;
 @end
