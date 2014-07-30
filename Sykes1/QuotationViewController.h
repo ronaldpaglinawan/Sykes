@@ -12,5 +12,6 @@
 
 
 - (IBAction)readMoreButtonPressed:(id)sender;
+- (IBAction)dismiss:(id)sender;
 
 @end
