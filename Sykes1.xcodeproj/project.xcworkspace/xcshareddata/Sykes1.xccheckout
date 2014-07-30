@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7C8C4FA9-F7A5-476B-BDBE-F514C1202909</string>
+	<string>9A8C4998-000E-4698-8B1A-1319E1694F1F</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Sykes1</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C3EC155D-C4F1-41FC-83C2-942ED575045E</key>
-		<string>https://github.com/ronaldpaglinawan/0728Sykes.git</string>
+		<key>5DFA83F1-4ABB-4B22-86A5-AA5CB17F8DE0</key>
+		<string>https://github.com/ronaldpaglinawan/Sykes.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Sykes1.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C3EC155D-C4F1-41FC-83C2-942ED575045E</key>
+		<key>5DFA83F1-4ABB-4B22-86A5-AA5CB17F8DE0</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ronaldpaglinawan/0728Sykes.git</string>
+	<string>https://github.com/ronaldpaglinawan/Sykes.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C3EC155D-C4F1-41FC-83C2-942ED575045E</string>
+	<string>5DFA83F1-4ABB-4B22-86A5-AA5CB17F8DE0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C3EC155D-C4F1-41FC-83C2-942ED575045E</string>
+			<string>5DFA83F1-4ABB-4B22-86A5-AA5CB17F8DE0</string>
 			<key>IDESourceControlWCCName</key>
-			<string>0728Sykes</string>
+			<string>Sykes</string>
 		</dict>
 	</array>
 </dict>
