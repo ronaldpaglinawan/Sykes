@@ -15,11 +15,10 @@
 
 @property (strong, nonatomic) NSMutableArray *chosenItemsArray;
 
-<<<<<<< HEAD
 @property (strong, nonatomic) NSMutableArray *mediaItemsArray;
 @property (strong, nonatomic) NSMutableArray *mentionItemsArray;
 @property (strong, nonatomic) NSMutableArray *topicItemsArray;
 
-=======
->>>>>>> FETCH_HEAD
+
+
 @end

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
+
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Mg4-yh-1Xp">
-=======
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13A3028" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Mg4-yh-1Xp">
->>>>>>> FETCH_HEAD
+
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -297,11 +295,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aIo-G8-NIZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< HEAD
             <point key="canvasLocation" x="-443" y="479"/>
-=======
-            <point key="canvasLocation" x="161" y="479"/>
->>>>>>> FETCH_HEAD
         </scene>
         <!--View Controller-->
         <scene sceneID="Yn9-tQ-Omw">
@@ -590,22 +584,19 @@
         <scene sceneID="B6n-MB-gdg">
             <objects>
                 <viewController id="L4g-EW-cPI" customClass="PDFViewController" sceneMemberID="viewController">
-<<<<<<< HEAD
+
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zhJ-5I-o2D"/>
                         <viewControllerLayoutGuide type="bottom" id="3yF-lb-MOW"/>
                     </layoutGuides>
-=======
->>>>>>> FETCH_HEAD
+
                     <view key="view" contentMode="scaleToFill" id="uLi-1Z-Efg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-<<<<<<< HEAD
+
                             <webView appearanceType="aqua" contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4EX-AT-vW1">
-=======
-                            <webView appearanceType="aqua" contentMode="scaleToFill" scalesPageToFit="YES" id="4EX-AT-vW1">
->>>>>>> FETCH_HEAD
+
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -640,12 +631,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-<<<<<<< HEAD
         <segue reference="kD9-xE-n0c"/>
         <segue reference="uuO-RU-qK7"/>
-=======
-        <segue reference="sJI-Dc-chT"/>
-        <segue reference="eLJ-Zo-fme"/>
->>>>>>> FETCH_HEAD
     </inferredMetricsTieBreakers>
 </document>

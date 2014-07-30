@@ -36,14 +36,12 @@
     
     // set itemCounter to 0
     itemCounter = 0;
-<<<<<<< HEAD
+
     
     _chosenItemsArray = [[NSMutableArray alloc] init];
     _mediaItemsArray = [[NSMutableArray alloc] init];
     _mentionItemsArray = [[NSMutableArray alloc] init];
     
-=======
->>>>>>> FETCH_HEAD
 }
 
 - (void)didReceiveMemoryWarning
